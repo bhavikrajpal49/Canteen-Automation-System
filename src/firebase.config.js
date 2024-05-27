@@ -4,13 +4,13 @@ import { getStorage } from "firebase/storage";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDZBWseT7cgz_H2Ajg5YyJxW6QzI-FDws4",
-    authDomain: "canteenprj.firebaseapp.com",
-    projectId: "canteenprj",
-    storageBucket: "canteenprj.appspot.com",
-    messagingSenderId: "338788462140",
-    appId: "1:338788462140:web:14eafb95195dc2c8bddd39",
-    measurementId: "G-QXFMYXP44Q"
+  apiKey: "EnterYourApiKey",
+    authDomain: "authDomain",
+    projectId: "yourprjid",
+    storageBucket: "yourbucketName",
+    messagingSenderId: "yourNo",
+    appId: "yourId",
+    measurementId: "yourDetails"
 };
 
 const app = getApps.length > 0 ? getApp() : initializeApp(firebaseConfig);
